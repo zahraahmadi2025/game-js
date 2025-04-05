@@ -10,17 +10,9 @@ if (
     (pChoice===ROCK && cChoice===SCISSORS) ||
     (pChoice===PAPER && cChoice===ROCK)||
     (pChoice===SCISSORS && cChoice===PAPER)
-)
-
-
-
-
-
-
-
-
-
-
-
-
+){
+    Winner ="PLAYER WINS";
+    return Winner;
+}
+}
 start1.addEventListener("click",start);
