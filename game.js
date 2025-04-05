@@ -3,6 +3,7 @@ let computerChoice = "ROCK";
 const ROCK ="ROCK";
 const PAPER ="PAPER";
 const SCISSORS ="SCISSORS";
+let Winner = "";
 
 let determinWinner = function (cChoice , pChoice){
 if (
