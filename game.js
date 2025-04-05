@@ -5,8 +5,13 @@ const PAPER ="PAPER";
 const SCISSORS ="SCISSORS";
 
 let determinWinner = function (cChoice , pChoice){
-    
-}
+if (
+    (pChoice===ROCK && cChoice===SCISSORS) ||
+    (pChoice===PAPER && cChoice===ROCK)||
+    (pChoice===SCISSORS && cChoice===PAPER)
+)
+
+
 
 
 
