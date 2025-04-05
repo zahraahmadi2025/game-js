@@ -4,23 +4,9 @@ const ROCK ="ROCK";
 const PAPER ="PAPER";
 const SCISSORS ="SCISSORS";
 
-Function start(){
-    let playerChoice = prompt(`${ROCK},${SCISSORS} OR ${PAPER}`);
-    let randomNumber = Math.random();
-    if(randomNumber<0.33){
-        computerChoice = ROCK;
-    }
-    else if(randomNumber<0.66){
-        
-    }
+let determinWinner = function (cChoice , pChoice){
+    
 }
-
-
-
-
-
-
-
 
 
 
