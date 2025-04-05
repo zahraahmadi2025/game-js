@@ -15,4 +15,9 @@ if (
     return Winner;
 }
 }
+function start(){
+    let playerChoice = prompt(`${ROCK} , ${SCISSORS} ,${PAPER}`);
+    let randomNumber =Math.random();
+}
+
 start1.addEventListener("click",start);
