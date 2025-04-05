@@ -27,6 +27,9 @@ function start(){
     else{
         computerChoice= SCISSORS;
     }
+
+    let result =determinWinner(computerChoice,playerChoice)
+    console.log(result);
 }
 
 start1.addEventListener("click",start);
