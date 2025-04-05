@@ -16,8 +16,17 @@ if (
 }
 }
 function start(){
-    let playerChoice = prompt(`${ROCK} , ${SCISSORS} ,${PAPER}`);
+    let playerChoice = prompt(`${ROCK} , ${SCISSORS} ,${PAPER}`) .toUpperCase();
     let randomNumber =Math.random();
+    if (randomNumber<0.33){
+        computerChoice =ROCK;
+    }
+    else if(randomNumber<0.66){
+        computerChoice -PAPER;
+    }
+    else{
+        computerChoice= SCISSORS;
+    }
 }
 
 start1.addEventListener("click",start);
